@@ -1,7 +1,7 @@
 var express = require('express'),
     mongoose = require('mongoose');
 
-var ip_add = '?'
+var ip_add = 'localhost'
 var db = mongoose.connect('mongodb://' + ip_add + '/bookAPI');
 
 var Book = require('./models/bookModel');
