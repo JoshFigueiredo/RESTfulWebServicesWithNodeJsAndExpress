@@ -17,6 +17,6 @@ var gulp = require('gulp'),
     });
 
     gulp.task('test', function() {
-        gulp.src('tests/*.js', {read: false})
+        gulp.src('Tests/*.js', {read: false})
             .pipe(gulpMocha({reporter: 'nyan'}))
-    })
+    });

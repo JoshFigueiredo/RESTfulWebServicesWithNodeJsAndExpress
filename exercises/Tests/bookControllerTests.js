@@ -4,7 +4,7 @@ var should = require('should'),
 describe('Book Controller Tests:', function(){
     describe('Post', function(){
         it('should not allow an empty title on post', function() {
-            var Book = function(book){this.save() = function(){}};
+            var Book = function(book){this.save = function(){}};
             
             var req = {
                 body: {
