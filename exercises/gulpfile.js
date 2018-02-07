@@ -8,7 +8,7 @@ var gulp = require('gulp'),
             env: {
                 PORT:8000
             },
-            ignore: ['./node_modulles/**']
+            ignore: ['./node_modules/**']
         })
         .on('restart', function(){
             console.log('Restarting');
